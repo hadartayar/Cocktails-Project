@@ -1,0 +1,105 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+  background-color: bisque;
+  border-radius: 6px;
+
+}
+
+.searchInput {
+  padding-left: 10px;
+}
+
+.cocktailsContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  font-size: 0.85vw;
+  color: #1e212d;
+  border-radius: 5px;
+  border: rgb(112, 112, 159) 1px solid;
+  display: inline-block;
+  margin: 5px;
+  padding: 20px;
+  max-width: 250px;
+  width: 500px;
+  background-color: #c0c9ed;
+  box-shadow: 2px 2px 5px white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: powderblue;
+}
+
+.image {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.modalImg {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.cocktailInfo {
+  font-family: Tahoma;
+  text-align: center;
+  font-size: 17px;
+}
+
+.cocktailName {
+  font-size: 20px;
+  margin: 2px auto;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-weight: 600;
+}
+
+.cocktailInstruction {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 20px;
+  max-height: 180px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+.cocktailsCard {
+  min-width: 275px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 7.5px;
+  margin-bottom: 1.5vh;
+}
+
+.footer {
+  height: 50px;
+  position: static;
+}
+
+.card .btnViewMore {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  /* height: window.height * 0.1; */
+
+}
