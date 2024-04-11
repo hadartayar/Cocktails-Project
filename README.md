@@ -1,2 +1,2 @@
 # cocktailsReactProject
- A client react project with 'The Cocktail DB' API
+ A client react app connected to 'The Cocktail DB' API
